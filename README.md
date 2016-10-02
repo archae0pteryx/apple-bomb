@@ -68,7 +68,9 @@ $`\curl -sSL https://get.rvm.io | bash -s stable`
 - Photoshop
 - Lightroom
 
-## **ZSH Plugins**
+## **ZSH**
+`theme="fino"`
+
 `plugins=(brew docker gitfast last-working-dir sudo vagrant virtualenvwrapper common-aliases node npm bower osx)`
 
-## [**ZSH Aliases**](aliases.md)
+[ZSH Aliases](aliases.md)
