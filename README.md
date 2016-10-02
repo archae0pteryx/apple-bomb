@@ -2,6 +2,21 @@
 ### Common dev setup notes for OS X
 ---
 
+1. Install Updates
+2. Set hidden folders on
+`defaults write com.apple.finder AppleShowAllFiles TRUE && killall finder`
+3. Set dark theme
+4. Set Dock Left
+5. Allow apps from anywhere
+6. Firewall on
+7. Tap click
+8. Kill spotlight
+9. Energy saver > Never on power
+1. Homebrew
+1. zsh / ohmyzsh
+1. iTerm2
+
+---
 ## [**Homebrew**](http://brew.sh/index.html)
 
 $`/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"`
