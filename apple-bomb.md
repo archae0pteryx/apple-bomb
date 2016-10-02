@@ -25,6 +25,7 @@
 - vlc
 - ffmpeg
 - megatools
+- gpg
 
 **Cask**
 - Caskroom/cask/iterm2
@@ -45,3 +46,6 @@
 - Caskroom/cask/sketch-toolbox
 - Caskroom/cask/hype*
 - Caskroom/cask/slack
+
+***RVM***
+\curl -sSL https://get.rvm.io | bash -s stable --ruby
