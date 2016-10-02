@@ -1,12 +1,12 @@
+# Exports
 export PATH=$HOME/bin:/usr/local/bin:$PATH
-
-# Path to your oh-my-zsh installation.
 export ZSH=/Users/xenu/.oh-my-zsh
 
 ZSH_THEME="fino"
 
-HYPHEN_INSENSITIVE="true"
+# Settings
 
+HYPHEN_INSENSITIVE="true"
 COMPLETION_WAITING_DOTS="true"
 
 plugins=(git node npm bower brew osx z)
@@ -16,7 +16,6 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 
 export MANPATH="/usr/local/man:$MANPATH"
-
 export LANG=en_US.UTF-8
 
 if [[ -n $SSH_CONNECTION ]]; then
@@ -48,10 +47,10 @@ alias design="cd ~/Design"
 alias desk="cd ~/Desktop"
 alias cry="cd ~/.cry/pee"
 
-# Network 
+# Network
 alias rmkh="rm -rf ~/.ssh/known_hosts"
 alias pgoo="ping 8.8.8.8"
 alias ip="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 
 export NVM_DIR="/Users/xenu/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh" 
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"

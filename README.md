@@ -4,7 +4,7 @@
 
 1. Install Updates
 2. Set hidden folders on
-`defaults write com.apple.finder AppleShowAllFiles TRUE && killall finder`
+`defaults write com.apple.finder AppleShowAllFiles TRUE && killall Finder`
 3. Set dark theme
 4. Set Dock Left
 5. Allow apps from anywhere
@@ -54,9 +54,13 @@ $`\curl -sSL https://get.rvm.io | bash -s stable`
 - postgresql
 - mysql
 
+`brew install zsh transmission wireshark nmap python3 docker handbrake vlc ffmpeg megatools gpg wget vagrant mongodb postgresql mysql`
+
 
 ## **Casks**
 - Caskroom/cask/iterm2
+- Caskroom/cask/onyx
+- Caskroom/versions/alfred2
 - Caskroom/cask/istat-menus
 - Caskroom/cask/little-snitch
 - Caskroom/cask/firefox
@@ -75,6 +79,8 @@ $`\curl -sSL https://get.rvm.io | bash -s stable`
 - Caskroom/cask/hype*
 - Caskroom/cask/slack
 - Caskroom/cask/the-unarchiver
+
+`brew cask install iterm2 alfred2 istat-menus little-snitch firefox google-chrome docker-toolbox megasync atom thunderbird tunnelblick spectacle virtualbox virtualbox-extension-pack clipmenu sketch sketch-toolbox hype slack the-unarchiver onyx`
 
 ---
 
