@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>build</key>
+	<real>687</real>
+	<key>license</key>
+	<string>5191-6755-2458-2955-8151</string>
+	<key>preferences</key>
+	<dict>
+		<key>CombinedDropdownDisplayMode</key>
+		<string>4,5,1,6</string>
+		<key>CombinedMenubarDisplayMode</key>
+		<string>1,5</string>
+		<key>Diagnostics_Enabled</key>
+		<integer>0</integer>
+		<key>FanActiveSet</key>
+		<string>48FC3499-12CF-4891-AF8F-BE2D2396D47A</string>
+		<key>FanControl_Enabled</key>
+		<true/>
+		<key>Sensors_MenubarMode</key>
+		<string>0</string>
+		<key>Sensors_TemperatureMode</key>
+		<integer>0</integer>
+		<key>StatusItems-Order</key>
+		<array>
+			<integer>8</integer>
+		</array>
+	</dict>
+	<key>version</key>
+	<real>5.1999998092651367</real>
+</dict>
+</plist>
