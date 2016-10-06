@@ -9,7 +9,7 @@ ZSH_THEME="fino"
 HYPHEN_INSENSITIVE="true"
 COMPLETION_WAITING_DOTS="true"
 
-plugins=(git node npm bower brew osx z)
+plugins=(common-aliases command-not-found docker gem git-extras pip python vagrant web-search last-working-dir virtualenv sudo git node npm bower brew osx)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -35,17 +35,30 @@ export SSH_KEY_PATH="~/.ssh/id_rsa"
 alias zshconfig="vim ~/.zshrc"
 alias sshconfig="vim ~/.ssh/config"
 
+# Python 
+alias activate="source venv/bin/activate"
+alias reqs="pip install -r requirements.txt"
+
 # movement
 
 alias ..='cd ..'
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias .....='cd ../../../..'
+alias code="cd ~/Code"
 alias repos="cd ~/Code/Repos"
 alias dls="cd ~/Downloads"
 alias design="cd ~/Design"
 alias desk="cd ~/Desktop"
 alias cry="cd ~/.cry/pee"
+
+# Git
+alias gig="echo 'beach venv node_modules' >> .gitignore"
+alias ga="git add ."
+alias gau="git add -u"
+alias gc="git commit -am 'kik'"
+alias gp="git push"
+alias gpsuom="git push --set-upstream origin master"
 
 # Network
 alias rmkh="rm -rf ~/.ssh/known_hosts"
@@ -54,3 +67,7 @@ alias ip="ifconfig -a | perl -nle'/(\d+\.\d+\.\d+\.\d+)/ && print $1'"
 
 export NVM_DIR="/Users/xenu/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"
+
+export PATH="$PATH:$HOME/.rvm/bin" # Add RVM to PATH for scripting
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
